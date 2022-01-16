@@ -281,10 +281,12 @@ function lun2sol(yyyy, mm, dd, yoon) {
     return prop;
   }
   
+  /* Calendar API - convert lunar to solar calendar */
   var param = `lunYear=${yyyy}` + `&lunMonth=${mm}` + `&lunDay=${dd}` + 
     `&ServiceKey=${KASI_KEY_ENCODED}` +
     "&_type=json";
   var url = "http://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getSolCalInfo?" + param;
+
   var result = UrlFetchApp.fetch(url);
   var data = JSON.parse(result.getContentText());
   
@@ -333,10 +335,13 @@ function sol2lun(yyyy, mm, dd) {
     Logger.log("Read from db: " + prop);
     return prop;
   }
+
+  /* Calendar API - convert solar to lunar calendar */
   var param = `solYear=${yyyy}` + `&solMonth=${mm}` + `&solDay=${dd}` + 
     `&ServiceKey=${KASI_KEY_ENCODED}` +
     "&_type=json";
   var url = "http://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getLunCalInfo?" + param;
+
   var result = UrlFetchApp.fetch(url);
   var data = JSON.parse(result.getContentText());
   
