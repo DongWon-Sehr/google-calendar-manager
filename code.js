@@ -4,10 +4,11 @@
  * lunar to sol calendar : https://gist.github.com/twkang/6c2979c9d0bc7431792e29181f0febff
  */
 
+// following two import lines should be removed in .gs file @Google Sheet > Extensions > Apps Script
 import 'google-apps-script';
 import 'keys.js';
 /**
- * following static variable assigned @ /keys.js
+ * following static variable assigned @/keys.js
  * KASI_KEY_ENCODED
  * KASI_KEY_DECODED
  * CALENDAR_ID
