@@ -12,7 +12,7 @@ Sync Google Spreadsheet to Google Calendar
 ><img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/03_Google%20Sheet%203.png?raw=true">
 
 2. Google Calendar ID
->- Can call specific Google Calendar with Calendar ID
+>- Can call specific Google Calendar object with Calendar ID in Apps Script
 ><img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/04_Google%20Calendar%20ID.png?raw=true">
 
 3. Calendar API (convert lunar to solar calendar)
