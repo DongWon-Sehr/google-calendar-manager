@@ -1,6 +1,6 @@
 ## Overview
 Sync Google Spreadsheet to Google Calendar
-<img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/06_Google%20Calendar%20Result.gif?raw=true">
+<img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/07_Google%20Calendar%20Result.gif?raw=true">
 
 ## Prepare
 1. Google Sheet Setting
@@ -17,7 +17,9 @@ Sync Google Spreadsheet to Google Calendar
 
 3. Calendar API (convert lunar to solar calendar)
 >- Calendar API for people who use lunar calendar birthday (Google Apps Script or Google Calendar don't support lunar calendar)
+><img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/05_KASI%20Calendar%20Open%20API.png?raw=true">
+
 
 ## Result
-<img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/06_Google%20Calendar%20Result.gif?raw=true">
+<img width="1000" alt="image" src="https://github.com/DongWon-Sehr/google/blob/master/sample_image/07_Google%20Calendar%20Result.gif?raw=true">
 
